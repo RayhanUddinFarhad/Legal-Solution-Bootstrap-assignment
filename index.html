@@ -10,6 +10,10 @@
 
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/bootstrap.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </head>
 <body >
 
@@ -43,8 +47,27 @@
                   
                  
                 </ul>
-                <button class="btn text-white bt-first">Free Consultation</button>
-              </div>
+                <button class="btn text-white bt-first" data-toggle="modal" data-target="#myModal">Free Consultation</button>
+
+
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Do you want to get legal solution?</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <p>We're here to help you. Feel free to call us</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn bt-first text-white">Call Us</button>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div>
             </div>
           </nav>
 
