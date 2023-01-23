@@ -1,8 +1,9 @@
-  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&family=Poppins:wght@500;600;700&family=Sniglet:wght@400;800&family=Work+Sans:wght@600&display=swap');
+  /* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&family=Poppins:wght@500;600;700&family=Sniglet:wght@400;800&family=Work+Sans:wght@600&display=swap'); */
 
 *{
 
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    max-width: 100%;
 }
 
 
@@ -19,12 +20,20 @@
 
 .banner-area {
 
-    background-image: url('/images/Rectangle\ 6.png'),linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
+    background-image: url('/images/Rectangle\ 6.png'),linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 60%);
    
-    height: 60vh;
     background-repeat: no-repeat;
-    max-width: 100%;
     background-size: contain;
     background-blend-mode: multiply;
+    height: 60vh;
     
 }
+/* .c-item {
+
+  background-image: url('/images/Rectangle\ 6.png'), linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%) !important;
+    background-blend-mode: multiply;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+} */
